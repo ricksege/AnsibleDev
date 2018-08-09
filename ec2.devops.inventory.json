@@ -1,0 +1,107 @@
+{
+  "912001842944": [
+    "18.236.102.131"
+  ], 
+  "_meta": {
+    "hostvars": {
+      "18.236.102.131": {
+        "ansible_host": "18.236.102.131", 
+        "ec2__in_monitoring_element": false, 
+        "ec2_account_id": "912001842944", 
+        "ec2_ami_launch_index": "0", 
+        "ec2_architecture": "x86_64", 
+        "ec2_block_devices": {
+          "xvda": "vol-096134054b156b7a1"
+        }, 
+        "ec2_client_token": "ansib-insta-1D9KBBEGARM3T", 
+        "ec2_dns_name": "ec2-18-236-102-131.us-west-2.compute.amazonaws.com", 
+        "ec2_ebs_optimized": false, 
+        "ec2_eventsSet": "", 
+        "ec2_group_name": "", 
+        "ec2_hypervisor": "xen", 
+        "ec2_id": "i-00ef48d7331cca544", 
+        "ec2_image_id": "ami-0ad99772", 
+        "ec2_instance_profile": "", 
+        "ec2_instance_type": "t2.micro", 
+        "ec2_ip_address": "18.236.102.131", 
+        "ec2_item": "", 
+        "ec2_kernel": "", 
+        "ec2_key_name": "ricksege.devops", 
+        "ec2_launch_time": "2018-08-01T14:17:48.000Z", 
+        "ec2_monitored": false, 
+        "ec2_monitoring": "", 
+        "ec2_monitoring_state": "disabled", 
+        "ec2_persistent": false, 
+        "ec2_placement": "us-west-2a", 
+        "ec2_platform": "", 
+        "ec2_previous_state": "", 
+        "ec2_previous_state_code": 0, 
+        "ec2_private_dns_name": "ip-172-31-29-189.us-west-2.compute.internal", 
+        "ec2_private_ip_address": "172.31.29.189", 
+        "ec2_public_dns_name": "ec2-18-236-102-131.us-west-2.compute.amazonaws.com", 
+        "ec2_ramdisk": "", 
+        "ec2_reason": "", 
+        "ec2_region": "us-west-2", 
+        "ec2_requester_id": "", 
+        "ec2_root_device_name": "/dev/xvda", 
+        "ec2_root_device_type": "ebs", 
+        "ec2_security_group_ids": "sg-03bc2581898f48cfd", 
+        "ec2_security_group_names": "ansible-SecurityGroup-MUQY4WWVL6ZK", 
+        "ec2_sourceDestCheck": "true", 
+        "ec2_spot_instance_request_id": "", 
+        "ec2_state": "running", 
+        "ec2_state_code": 16, 
+        "ec2_state_reason": "", 
+        "ec2_subnet_id": "subnet-94bbf2ed", 
+        "ec2_tag_Name": "ansible1", 
+        "ec2_tag_aws_cloudformation_logical_id": "instance", 
+        "ec2_tag_aws_cloudformation_stack_id": "arn:aws:cloudformation:us-west-2:912001842944:stack/ansible/a3d10390-9595-11e8-9992-0a3d4b08165a", 
+        "ec2_tag_aws_cloudformation_stack_name": "ansible", 
+        "ec2_virtualization_type": "hvm", 
+        "ec2_vpc_id": "vpc-f630cd8e"
+      }
+    }
+  }, 
+  "ami_0ad99772": [
+    "18.236.102.131"
+  ], 
+  "ec2": [
+    "18.236.102.131"
+  ], 
+  "i-00ef48d7331cca544": [
+    "18.236.102.131"
+  ], 
+  "instance_state_running": [
+    "18.236.102.131"
+  ], 
+  "key_ricksege_devops": [
+    "18.236.102.131"
+  ], 
+  "security_group_ansible_SecurityGroup_MUQY4WWVL6ZK": [
+    "18.236.102.131"
+  ], 
+  "tag_Name_ansible1": [
+    "18.236.102.131"
+  ], 
+  "tag_aws_cloudformation_logical_id_instance": [
+    "18.236.102.131"
+  ], 
+  "tag_aws_cloudformation_stack_id_arn_aws_cloudformation_us_west_2_912001842944_stack_ansible_a3d10390_9595_11e8_9992_0a3d4b08165a": [
+    "18.236.102.131"
+  ], 
+  "tag_aws_cloudformation_stack_name_ansible": [
+    "18.236.102.131"
+  ], 
+  "type_t2_micro": [
+    "18.236.102.131"
+  ], 
+  "us-west-2": [
+    "18.236.102.131"
+  ], 
+  "us-west-2a": [
+    "18.236.102.131"
+  ], 
+  "vpc_id_vpc_f630cd8e": [
+    "18.236.102.131"
+  ]
+}
