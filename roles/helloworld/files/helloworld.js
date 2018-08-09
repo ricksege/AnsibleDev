@@ -7,8 +7,8 @@ http.createServer(function (request, response) {
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
-   // Send the response body as "Canary Test!"
-   response.end('Canary Test!\n')
+   // Send the response body as "Cron Test!"
+   response.end('Cron Test!\n')
 }).listen(3000)
 
 // Console will print the message
