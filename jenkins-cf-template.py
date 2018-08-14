@@ -33,11 +33,11 @@ from awacs.sts import AssumeRole
 ApplicationName = "jenkins"
 ApplicationPort = "8080"
 
-GithubAccount = "EffectiveDevOpsWithAWS"
-GithubAnsibleURL = "https://github.com/{}/ansible".format(GithubAccount)
+GithubAccount = "ricksege"
+GithubAnsibleURL = "https://github.com/{}/AnsibleDev".format(GithubAccount)
 
 AnsiblePullCmd = \
-    "/usr/local/bin/ansible-pull -U {} {}.yml -i localhost".format(
+    "/usr/local/bin/ansible-pull -U {}/{}.yml -i localhost".format(
         GithubAnsibleURL,
         ApplicationName
     )
@@ -103,7 +103,7 @@ t.add_resource(InstanceProfile(
 
 t.add_resource(ec2.Instance(
     "instance",
-    ImageId="ami-a4c7edb2",
+    ImageId="ami-0ad99772",
     InstanceType="t2.micro",
     SecurityGroups=[Ref("SecurityGroup")],
     KeyName=Ref("KeyPair"),
